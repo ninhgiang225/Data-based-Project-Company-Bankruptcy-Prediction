@@ -9,7 +9,8 @@ import matplotlib.pyplot as plt
 from scipy.special import logsumexp
 from IPython.display import display, clear_output
 from mpl_toolkits.mplot3d import Axes3D
-from analysis import Analysis
+
+
 
 class EM():
     def __init__(self, data=None):
